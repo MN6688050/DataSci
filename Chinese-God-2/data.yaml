@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Cai shen', 'Guan Yin', 'Guan Yu', 'Smiling Buddha', 'Xuan wu']
+
+roboflow:
+  workspace: chinesegod
+  project: chinese-god
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/chinesegod/chinese-god/dataset/2-e-e-e 
